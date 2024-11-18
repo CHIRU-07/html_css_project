@@ -1,0 +1,81 @@
+@media (min-width:1025px) and (max-width:1440px){
+    .Navbar > p{
+       font-family: var(--font_style);
+       font-size: 1.8rem;
+       text-transform: uppercase;
+       font-weight: 700;
+       letter-spacing: 0.25px;
+   }
+   nav{
+       display: flex;
+       column-gap:55px;
+       align-items: center;
+       
+   }
+   
+   nav > a{
+       font-size: 1rem;
+       letter-spacing: 0.20px;
+   }
+   .nav_center{
+    display:none;
+   }
+   .nav_center input{
+    display:none;
+   }
+   
+   .schedule_button{
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+       background-color: black;
+       width:15vw;
+       font-size: 1rem;
+       padding: 5px 5px 5px 0px;
+       border-radius: 30px;
+       gap:10px;
+   }
+   
+   .schedule_button >i{
+       color:var(--theme_color_orange);
+       background-color: #f35525;
+       padding:10px;
+       color:white;
+       border-radius: 25px;
+       font-size: 1.2rem;
+   }
+   .Apartment_left{
+       height:75%;
+       width:27vw;
+   }
+   .Apartment_center{
+       width:33vw;
+       gap:10px;
+   }
+   .Apartment_right{
+       width:22vw;
+   }
+   .Apartment_r_area{
+       padding:15px;
+   }
+   .house1_tcost > p {
+       width:47%;
+   }
+   .map_input{
+       padding:15px;
+       gap:40px;
+   }
+   .sendmsg{
+       width:45%
+   }
+   .div2,.div3{
+       height:13vh;
+   }
+   .div4{
+       height:75vh;
+       gap:20px;
+   }
+   .footer{
+       margin-top:55vh;
+   }
+}
